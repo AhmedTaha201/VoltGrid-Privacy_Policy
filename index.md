@@ -1,29 +1,29 @@
 # Privacy Policy for VoltGrid: Neon Circuit Puzzle
-**Effective Date:** October 2026
 
-VoltGrid ("we", "our", or "the App") is developed as an ad-supported and in-app purchase enabled mobile game. This service is provided at no cost and is intended for use as is.
+Effective date: 18 October 2026
 
-## 1. Local Data Storage
-All player progress, including unlocked levels, accumulated energy cores, daily challenge streaks, theme selections, and audio preferences, is stored locally on your device via Android SharedPreferences. We do not maintain user accounts or store personal identification data on external servers.
+VoltGrid is a free puzzle game with advertising and optional in-app purchases. Contact: instacharge7@gmail.com.
 
-## 2. Third-Party Services & Advertising
-VoltGrid integrates Google AdMob (Google Mobile Ads SDK) to display rewarded and interstitial advertisements. To provide relevant advertising, combat fraud, and measure campaign effectiveness, the Google Mobile Ads SDK may automatically collect:
-* **Device Identifiers:** Resettable Android Advertising ID (AAID).
-* **Location:** Coarse / approximate geographic location derived from IP address.
-* **App Activity:** Interaction events with displayed advertisements.
-* **Diagnostics:** Crash reports and performance metrics.
+## Local progress
+Campaign progress, energy cores, daily completion dates and streaks, themes, sound and vibration settings, callsign, country selection, purchase entitlements and processed purchase tokens are stored in app-private storage on your device. The initial country is derived from your device locale, not GPS. Clearing app data or uninstalling removes local game data; consumed core packs and puzzle progress cannot be restored from Google Play. An active Remove Ads purchase can be restored from the same Google Play account.
 
-All data transmitted by third-party SDKs is encrypted in transit using industry-standard HTTPS/TLS protocols. For details on Google's privacy practices, refer to: https://policies.google.com/technologies/partner-sites
+## Optional online leaderboard
+Online sharing is off by default. If you choose Join online leaderboard, Firebase Authentication creates an anonymous account with a unique identifier. VoltGrid sends this identifier, callsign, country code and flag, rating, league tier, stars, campaign progress and last-update timestamp to Google Firebase Firestore. Callsign, country and game statistics are visible to other players. The identifier associates your profile with your device account. Do not use a real name or other personal information in your callsign. Leaderboard data does not back up your local puzzle progress. Firebase may process service diagnostics and network information to operate and protect its services.
 
-## 3. In-App Purchases (Google Play Billing)
-Financial transactions for digital items (such as Remove Ads and Energy Core bundles) are processed entirely by Google Play Billing. VoltGrid does not process or retain payment details, credit card numbers, or billing addresses.
+## Stop sharing and delete your profile
+Open Leaderboards and choose Delete online profile & stop sharing. Sharing stops immediately. With an internet connection, the app deletes your leaderboard document and anonymous Firebase account while keeping local puzzle progress. If deletion fails, the app keeps sharing disabled and lets you retry; pending deletion is retried on the next app launch. Do not clear app data or uninstall before deletion succeeds, because doing so can remove the identity needed for self-service deletion. Profiles remain stored until deleted; uninstalling alone does not delete an online profile. You can also email instacharge7@gmail.com with the subject VoltGrid data deletion and your callsign and country so we can locate the profile and verify the request. Do not send passwords or payment details. Service backups or logs may persist under Google's retention practices.
 
-## 4. User Consent & Opt-Out
-* **EEA, UK, and Swiss Users:** An interactive consent dialogue powered by Google's User Messaging Platform (UMP) is presented upon launch. You can update or revoke your consent at any time via the "Ad Privacy" button in the in-game Settings menu.
-* **Personalized Ad Opt-Out:** You can reset or delete your Android Advertising ID at any time in your Android OS settings under **Settings -> Google -> All services -> Ads**.
+## Advertising and consent
+VoltGrid uses Google AdMob for interstitial and optional rewarded ads. Depending on consent and service configuration, Google may process advertising identifiers, approximate location inferred from IP address, ad interactions and diagnostic information for ad delivery, measurement, security and personalization where permitted. VoltGrid does not request precise location permission. The Google User Messaging Platform checks whether a consent form is required. Ads are requested only when that platform allows it. Where available, Ad Privacy in the home screen lets you reopen privacy options. Device advertising-ID controls are available in Android settings. Ad availability may vary. Remove Ads removes interstitial ads; optional rewarded ads remain available.
 
-## 5. Children's Privacy
-VoltGrid does not knowingly collect personally identifiable information from children under the age of 13.
+## Purchases
+Google Play processes payments. VoltGrid receives product identifiers, purchase status and tokens to deliver purchases and avoid duplicate grants. VoltGrid does not receive or store credit-card or bank-account details. Pending payments do not grant items until Google Play confirms the purchase.
 
-## 6. Contact Us
-For questions regarding this policy, contact us at: instacharge7@gmail.com
+## Providers and security
+Firebase, AdMob and Google Play are provided by Google. Network requests to these services use encrypted connections. No method of storage or transmission is completely secure. See Google's privacy policy at https://policies.google.com/privacy and advertising information at https://policies.google.com/technologies/partner-sites.
+
+## Children
+VoltGrid is not directed at children under 13. If you believe a child has submitted personal information, contact instacharge7@gmail.com to request removal.
+
+## Changes and contact
+Updates to this policy will be reflected in its effective date. For privacy, deletion or support requests, email instacharge7@gmail.com.
